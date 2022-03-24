@@ -4,7 +4,7 @@ import pickle
 import os
 
 # Create some random data
-X, y = make_regression(10000,n_features = 10)
+X, y = make_regression(10000,n_features = 11)
 
 # Train a model
 reg = Lasso().fit(X, y.ravel())
